@@ -1,0 +1,125 @@
+body, html {
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Bookman Old Style";
+	font-style: normal;
+}
+p{
+	font-family: "Bookman Old Style";
+	font-style: normal;
+	font-variant: small-caps;
+}
+.background1{
+	background-color: #777777;
+}
+.App {
+	height:100%;
+}
+.bridal-party img {
+	height: 25%;
+	width: 25%;
+}
+.bridal-party div {
+	font-family: "Bookman Old Style";
+	font-style: normal;
+	padding: 15px;
+
+}
+.story-text {
+	font-family: "Bookman Old Style";
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 400;
+	line-height: 30px;
+	font-size: 20px;
+	padding: 18px;
+	color: white;
+	background-color: #777777;
+}
+.story-header {
+	font-family: "Bookman Old Style";
+	font-style: normal;
+	font-weight: 400;
+	padding: 18px;
+	margin: 0px;
+	color: white;
+	background-color: #777777;
+}
+.home { 
+    /* The image used */
+    background-image: url("../images/engagement.jpg");
+
+    /* Set a specific height */
+    height: 100%; 
+}
+.parallax-1 { 
+    /* The image used */
+    background-image: url("../images/haintbluehorizontal.jpg");
+
+    /* Set a specific height */
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-2 { 
+    /* The image used */
+    background-image: url("../images/stairs.jpg");
+
+    /* Set a specific height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-3 { 
+    /* The image used */
+    background-image: url("../images/stairs.jpg");
+
+    /* Set a specific height */
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-4 { 
+    /* The image used */
+    background-image: url("../images/jersey.jpg");
+
+    /* Set a specific height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-5 { 
+    /* The image used */
+    background-image: url("../images/ring.jpg");
+
+    /* Set a specific height */
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
