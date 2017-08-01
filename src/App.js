@@ -15,7 +15,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <div className="row">
         <NavBar/>
+      </div>
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route path='/ourstory' component={OurStory}/>

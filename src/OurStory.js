@@ -20,16 +20,12 @@ const OurStory = () =>
                 <p>On May 8th, 2016, Parker asked Maddi to marry him in the Unitarian Church cemetery garden. Afterwards,
                     the two celebrated their engagement at their favorite brewery with some of their closest friends.  3 months 
                     later, they moved to New Jersey where Maddi currently studies at Rutgers University and Parker works
-                    at AT&T.
-                </p>
-            </div>
-            <div className="parallax-5"></div>
-            <div className="story-text">
-                <p>Currently, Maddi and Parker live in Highland Park, New Jersey where Maddi is a graduate student at
+                    at AT&T.  Currently, Maddi and Parker live in Highland Park, New Jersey where Maddi is a graduate student at
                     Rutgers University and Parker is a software engineer at AT&T. The two look forward to tying the knot on June 2nd,
                     2018 in their beloved city of Charleston, South Carolina.
                 </p>
             </div>
+            <div className="parallax-5"></div>
             <div className="parallax-5"></div>
         </div>
     </div>;

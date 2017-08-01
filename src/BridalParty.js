@@ -25,10 +25,10 @@ const BridalParty = () =>
         <div className="bridal-party">
             <Row>
                 <Col sm={6}>
-                    <h2 style={{ fontFamily: "Bookman Old Style" }}>Groomsmen</h2>
+                    <h2 className="bc">Groomsmen</h2>
                 </Col>
                 <Col sm={6}>
-                    <h2 style={{ fontFamily: "Bookman Old Style" }}>Bridesmaids</h2>
+                    <h2 className="bc">Bridesmaids</h2>
                 </Col>
             </Row>
             <Row className="background1">
@@ -42,7 +42,7 @@ const BridalParty = () =>
                 <Col sm={6}>
                     <img src={april} className="img-circle" alt="Alex Bednar"/>
                     <div>
-                        Maid of Honor and queen of "Home Team BBQ," April is a sweet, sassy and supportive friend since
+                        Maid of Honor and queen of "Home Team BBQ," <strong>April Dunlap</strong> is a sweet, sassy and supportive friend since
                          Maddi's College of Charleston days.
                     </div>
                 </Col>
@@ -58,7 +58,7 @@ const BridalParty = () =>
                 <Col sm={6}>
                     <img src={carson} className="img-circle" alt="Harrison Peacock"/>
                     <div>
-                        Maid of Honor and fiercely loyal friend, Carson met Maddi at a Catalina Wine Mixer
+                        Maid of Honor and fiercely loyal friend, <strong>Carson Fisher</strong> met Maddi at a Catalina Wine Mixer
                         during Freshman year...and the rest is history.
                     </div>
                 </Col>
@@ -74,7 +74,7 @@ const BridalParty = () =>
                 <Col sm={6}>
                     <img src={erin} className="img-circle" alt="Harrison Peacock"/>
                     <div>
-                        Maid of Honor and pontoon boat dweller, Erin has been a shoulder for Maddi to lean on 
+                        Maid of Honor and pontoon boat dweller, <strong>Erin Fisher</strong> has been a shoulder for Maddi to lean on 
                         from their days as Gamecocks, to their transition to Cougars.
                     </div>
                 </Col>
@@ -90,23 +90,23 @@ const BridalParty = () =>
                 <Col sm={6}>
                     <img src={carly} className="img-circle" alt="Harrison Peacock"/>
                     <div>
-                        Bridesmaid and future veterinarian, Carly has blessed Maddi with her unrelenting 
+                        Bridesmaid and future veterinarian, <strong>Carly Iulo</strong> has blessed Maddi with her unrelenting 
                         love and New Jersey sass since their Rec Center Soccer days back in the 90s.
                     </div>
                 </Col>
             </Row>
-            <Row>
+            <Row className="background1">
                 <Col sm={6}>
                     <img src={sean} className="img-circle" alt="Sean Flanagan"/>
                     <div>
-                        A great man and the friendliest person Parker and Maddi know, Sean Flanagan is an honored guest
+                        A great man and the friendliest person Parker and Maddi know, <strong>Sean Flanagan</strong> is an honored guest
                         at this wedding.
                     </div>
                 </Col>
                 <Col sm={6}>
                     <img src={colleen} className="img-circle" alt="Harrison Peacock"/>
                     <div>
-                        Bridesmaid and childhood friend, Maddi couldn't buy a friend like Colleen for a million bucks!
+                        Bridesmaid and childhood friend, Maddi couldn't buy a friend like <strong>Colleen Cooper</strong> for a million bucks!
                     </div>
                 </Col>
             </Row>
@@ -114,31 +114,31 @@ const BridalParty = () =>
                 <Col sm={6}>
                     <img src={wayne} className="img-circle" alt="Wayne Perry"/>
                     <div>
-                        Easily the funniest man in this bridal party, Wayne Perry is a lovable dude with a great
+                        Easily the funniest man in this bridal party, <strong>Wayne Perry</strong> is a lovable dude with a great
                         love for Classic Rock.  Just ask him about it.
                     </div>
                 </Col>
                 <Col sm={6}>
                     <img src={katie} className="img-circle" alt="Harrison Peacock"/>
                     <div>
-                         Bridesmaid and screen printing extraordinaire, Katie has been the "shake" to Maddi's
+                         Bridesmaid and screen printing extraordinaire, <strong>Katie Doyle</strong> has been the "shake" to Maddi's
                           "bake" through all of their sporting adventures - whether it be high school lacrosse or adult kickball.
                     </div>
                 </Col>
             </Row>
-            <Row>
+            <Row className="background1">
                 <Col sm={6}>
                     <img src={charlie} className="img-circle" alt="Wayne Perry"/>
                     <div>
-                        Charlie is a one of the smartest guys we know and a wonderful friend. 
+                        <strong>Charlie Rioux</strong> is a one of the smartest guys we know and a wonderful friend. 
                         He brightens the mood of any group he is a part of.
                     </div>
                 </Col>
                 <Col sm={6}>
-                    <img src={katie} className="img-circle" alt="Harrison Peacock"/>
+                    <img src={laura} className="img-circle" alt="Harrison Peacock"/>
                     <div>
-                         Bridesmaid and screen printing extraordinaire, Katie has been the "shake" to Maddi's
-                          "bake" through all of their sporting adventures - whether it be high school lacrosse or adult kickball.
+                         Bridesmaid and Boston transplant, <strong>Laura Cooper</strong> is a childhood friend whom Maddi always spends 
+                         hours on the phone with laughing more than talking.
                     </div>
                 </Col>
             </Row>
@@ -146,29 +146,18 @@ const BridalParty = () =>
                 <Col sm={6}>
                     <img src={austin} className="img-circle" alt="Wayne Perry"/>
                     <div>
-                        Austin is the brother of the bride and one of the biggest sports fans we know.  Whether it be the Cowboys (BOOO!)
+                        <strong>Austin Edwards</strong> is the brother of the bride and one of the biggest sports fans we know.  Whether it be the Cowboys (BOOO!)
                         or the Gamecocks, he is watching every game.
                     </div>
                 </Col>
                 <Col sm={6}>
-                    <img src={laura} className="img-circle" alt="Harrison Peacock"/>
-                    <div>
-                         Bridesmaid and Boston transplant, Laura is a childhood friend whom Maddi always spends 
-                         hours on the phone with laughing more than talking.
-                    </div>
-                </Col>
-            </Row>
-            <Row>
-                <Col sm={6}>
-                   
-                </Col>
-                <Col sm={6}>
                     <img src={marissa} className="img-circle" alt="Harrison Peacock"/>
                     <div>
-                        Bridesmaid and professional smiler, Marissa always kept Maddi's car stocked 
+                        Bridesmaid and professional smiler, <strong>Marissa Nichols</strong> always kept Maddi's car stocked 
                         with mix cds full of classic rock and the All American Rejects during their high school years.
                     </div>
                 </Col>
+                
             </Row>
         </div>
     </div>;
