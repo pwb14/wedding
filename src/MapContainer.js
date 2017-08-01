@@ -3,7 +3,8 @@ import React from 'react';
 
 const style = {
   width: '70%',
-  height: '70%'
+  height: '70%',
+  marginLeft: '15.25%'
 };
  
 export class MapContainer extends React.Component {

@@ -7,7 +7,8 @@ import marthalous from './images/marthalous.jpg';
 let picStyle = {
     height: "30%",
     width: "30%",
-    maxHeight: "100%"
+    maxHeight: "100%",
+    maxWidth: '100%'
 };
 
 let divStyle={
@@ -28,7 +29,7 @@ const TravelAndLeisure = () =>
                 <h4 className="bc">Rue de Jean</h4>
                 <img src={rue} style={picStyle} alt="Rue de Jean"/>
                 <div style={divStyle}>One of our favorite retaurants, Rue de Jean is a french restaurant with a bit of southern flair.  
-                A little on the pricy side, their Foie Gras is prepared wonderfully via sous vide.  
+                A little on the pricey side, their Foie Gras is prepared wonderfully via sous vide.  
                 Moments we shared here: Graduation Party with the Parents, Dates for just Foie Gras.</div>
             </div>
             <div>

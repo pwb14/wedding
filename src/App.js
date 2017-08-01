@@ -7,6 +7,7 @@ import Home from './Home.js';
 import BridalParty from './BridalParty';
 import TravelAndLeisure from './TravelAndLeisure';
 import Venue from './Venue.js';
+import AdditionalInfo from './AdditionalInfo.js';
 import './styles/main.css';
 import { Navbar, Jumbotron, Button } from 'react-bootstrap';
 import NavBar from './NavBar.js';
@@ -24,6 +25,7 @@ class App extends Component {
           <Route path='/bridalparty' component={BridalParty}/>
           <Route path='/travel' component={TravelAndLeisure}/>
           <Route path='/venue' component={Venue}/>
+          <Route path='/additional' component={AdditionalInfo}/>
         </Switch>
       </div>
     );

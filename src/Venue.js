@@ -18,6 +18,10 @@ let address = {
 const style2 = {
   marginRight: '16%'
 };
+const style3 = {
+    marginTop: "5%",
+    fontFamily: 'Bree Serif'
+};
 const Venue = () =>
     <div style={{height:"100%"}}>
         <h1 className="story-header">Our Venue</h1>
@@ -26,6 +30,7 @@ const Venue = () =>
         <div style={divStyle}>
             <p>926 Hughes Rd</p>
             <p>Johns Island, SC 29455</p>
+            <p style={style3}>More details will be forthcoming</p>
         </div>
         <div  style={style2}>
         <MapContainer/>
