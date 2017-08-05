@@ -29,7 +29,7 @@ const TravelAndLeisure = () =>
 
         </div>
         <div>
-            <a className="text-center" href="tgt.gifts/bednar-edwards-wedding"><b>Target</b></a> 
+            <a className="text-center" href="https://www.target.com/gift-registry/giftgiver?registryId=61fb970a25d54eb989b16087584264a3&ref=registryWebEmailShare&lnk=registry_custom_url#1"><b>Target</b></a> 
 
         </div>
         <div>
