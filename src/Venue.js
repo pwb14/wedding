@@ -19,7 +19,11 @@ const style2 = {
   marginRight: '16%'
 };
 const style3 = {
-    marginTop: "5%",
+    marginTop: "3%",
+    fontFamily: 'Bree Serif'
+};
+const style4 = {
+    marginBottom: '5%',
     fontFamily: 'Bree Serif'
 };
 const Venue = () =>
@@ -30,7 +34,8 @@ const Venue = () =>
         <div style={divStyle}>
             <p>926 Hughes Rd</p>
             <p>Johns Island, SC 29455</p>
-            <p style={style3}>More details will be forthcoming</p>
+            <p style={style3}>Ceremony will start at 5:30pm</p>
+            <p style={style4}>Cocktails, dinner and dancing to follow at 6pm</p>
         </div>
         <div  style={style2}>
         <MapContainer/>

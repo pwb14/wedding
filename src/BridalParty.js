@@ -52,8 +52,8 @@ const BridalParty = () =>
                 <Col sm={6}>
                     <img src={harry} className="img-circle" alt="Harrison Peacock"/>
                     <div>
-                        <strong>Harrison Peacock</strong> is one of the oldest friend of the groom and has always been 
-                        there for all of his friends since we can remember.
+                        <strong>Harrison Peacock</strong> is one of the oldest friends of the groom and has always been 
+                        there for all of his friends since anyone can remember.
                     </div>
                 </Col>
                 <Col sm={6}>
@@ -131,7 +131,7 @@ const BridalParty = () =>
                 <Col sm={6}>
                     <img src={charlie} className="img-circle" alt="Wayne Perry"/>
                     <div>
-                        <strong>Charlie Rioux</strong> is a one of the smartest guys we know and a wonderful friend. 
+                        <strong>Charlie Rioux</strong> is one of the smartest guys we know and a wonderful friend. 
                         He brightens the mood of any group he is a part of.
                     </div>
                 </Col>
