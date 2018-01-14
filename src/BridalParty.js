@@ -17,6 +17,7 @@ import colleen from './images/Colleen.png';
 import marissa from './images/Marissa.png';
 import katie from './images/Katie.png';
 import laura from './images/Laura.png';
+import brett from './images/Brett.png';
 import { Col, Row } from 'react-bootstrap';
 
 const BridalParty = () =>
@@ -158,6 +159,14 @@ const BridalParty = () =>
                     </div>
                 </Col>
                 
+            </Row>
+            <Row className="background1">
+                <Col sm={12}>
+                    <img src={brett} className="img-circle" alt="Wayne Perry"/>
+                    <div>
+                        <strong>Brett Snyder</strong> is the officiant and friend of Parker and Madison.  He is also the reigning champion of our Fantasy Football league - whether we like it or not.
+                    </div>
+                </Col>
             </Row>
         </div>
     </div>;

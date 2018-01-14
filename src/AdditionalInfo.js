@@ -35,7 +35,9 @@ const TravelAndLeisure = () =>
         <div>
             <a className="text-center" href="https://www.bedbathandbeyond.com:443/store/giftregistry/view_registry_guest.jsp?registryId=544648185&eventType=Wedding&pwsurl="><b>Bed Bath & Beyond</b></a>
         </div>
-
+        <div>
+            <a className="text-center" href="http://www.honeyfund.com/wedding/HouseBednar"><b>Honeyfund</b></a>
+        </div>
         <h5 className="bc">If you would prefer to make a charitable donation in Parker and Maddi's names, consider donating to     <a href="http://www.tebohotrust.org.za/index.asp?pid=6"><b>The Teboho Trust Foundation</b></a>
 .</h5>
         </div>
